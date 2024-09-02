@@ -1,3 +1,10 @@
+/* .wrapper {
+  background: url('./Components/Assets/BackgroundfForLR.jpg') no-repeat;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+} */
+
 .App {
   text-align: center;
 }
