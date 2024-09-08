@@ -35,7 +35,7 @@ const LoginRegister = () => {
 
     return (
 
-        <div className={`wrapper ${isActive ? 'active' : ''}`}> {/* correction */}
+        <div className={`wrapper-log ${isActive ? 'active' : ''}`}> {/* correction */}
         
             {/* LOGIN */}
             <div className='form-box login'>    {/* for the form box */}

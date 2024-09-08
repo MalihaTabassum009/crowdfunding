@@ -1,6 +1,6 @@
 /* This is for the LandingPage component */
 .landing-page {
-    background-color: white; /* White background */
+    background-color: #070F2B; /* White background */
     min-height: 100vh; /* Ensures the background covers the full viewport height */
     /* margin-top: 10px;
     background-size: cover;
@@ -19,7 +19,7 @@
     width: 105%;
     height: 80px;
     line-height: 80px;
-    background: black;
+    background: #9290C3;  
      /* background-color: #333; */
     z-index: 100;
     margin: 0 30px 0 -50px;
@@ -28,7 +28,7 @@
 
 
 .nav-logo h2 {
-    color: lightgreen;
+    color: #1B1A55;
     font-size: 45px;
     font-weight: 700;
     margin: 0 -10px 0 80px;
@@ -46,7 +46,7 @@
 .nav-menu ul li .link {
     text-decoration: none;
     font-weight: 600;
-    color: brown;
+    color: #030327;
     padding-bottom: 7px;
     margin: 0 15px; /* Adjust spacing around the links */
 }
@@ -70,9 +70,10 @@
 }
 
 .nav-button .start-btn:hover {
-    background-color: rgb(190, 250, 190);
+    background-color: #1B1A55;
     color: black;
-    border: 5px solid skyblue;
+    border: none;
+    /* border: 5px solid skyblue; */
 }
 
 .nav-button .btn {
@@ -91,7 +92,7 @@
 }
 
 .nav-button .btn:hover {
-    background-color: steelblue;
+    background-color: #1B1A55;
     color: #fff;
 }
 
@@ -118,11 +119,15 @@
     height: 50px;
     padding: 10px 50px;
     border-radius: 20px;
-    background-color: rgb(254, 254, 190);
-    box-shadow: 0px 7px 5px #999;
+    background-color: rgb(243, 243, 193);
     border: 1px solid grey;
-    font-size: 16px;
-    
+    font-size: 16px;   
+}
+
+.search-bar:hover {
+    box-shadow: 0px 7px 5px #999;
+    cursor: pointer;
+    border: none;
 }
 
 /* search bar icon */
@@ -133,9 +138,8 @@
 }
 
 .search-btn {
-    background-color: rgb(92, 242, 234);
+    background-color: #9290C3;  
     border: 2px solid gray;
-    box-shadow: 0 5px 5px #999;
     border-radius: 25px;
     font-weight: 600;
     padding: 10px;
@@ -145,6 +149,7 @@
 }
 
 .search-btn:hover {
-    background-color: rgb(60, 244, 60);
+    background-color: rgb(92, 242, 234);
     color: black;
+    box-shadow: 0 5px 5px #999;
 }

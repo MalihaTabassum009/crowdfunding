@@ -5,7 +5,7 @@ import { FaUser, FaMapMarkerAlt, FaPhoneAlt, FaIdCard } from "react-icons/fa";
 
 const DashBoard = () => {
     return (
-        <div className='wrapper'>
+        <div className='wrapper-dashboard'>
             <div className=''>
                 <form action=''>
                     <h1 className='font-bold text-neutral-100'>Personal Information Form</h1>
@@ -49,16 +49,16 @@ const DashBoard = () => {
 
                         {/* GENDER */}
                         <div className='input-box'>
-                            {/* <select required>
+                            <select required>
                                 <option value="" disabled selected hidden>Gender</option>
                                 <option value="male">Male</option>                           
                                 <option value="female">Female</option>
-                            </select> */}
-
-                            <select required value="defaultValue"> {/* or use defaultValue */}
-                                <option value="male">Male</option>
-                                <option value="female">Female</option>
                             </select>
+
+                            {/* <select required value="defaultValue"> {/* or use defaultValue */}
+                                {/* <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select> */} 
                         </div>
                     </div>
                     
