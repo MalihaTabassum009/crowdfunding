@@ -45,7 +45,7 @@ function LandingPage() {
                     <Cards 
                         imgSrc='https://picsum.photos/300/200' 
                         imgAlt="Card pic" 
-                        cardTitle='Card Title'
+                        cardTitle='Project 1.0'
                         companyName='Company/Brand Name'
                         companyLink='https://stocksnap.io/search/nature'
                         daysLeft={13}
@@ -62,48 +62,188 @@ function LandingPage() {
                     <Cards 
                         imgSrc='https://picsum.photos/300/200' 
                         imgAlt="Card pic" 
-                        cardTitle='Card Title 2.0'
-                        description='Some Boastful ranting about some idea of that certain company.'
-                        button1Text='Product Type'
-                        button1Link='https://www.merriam-webster.com/dictionary/apparel'
-                        button2Text='Location'
-                        button2Link='https://en.wikipedia.org/wiki/New_York_City' />
-
-                    <Cards 
-                        imgSrc='https://picsum.photos/300/200' 
-                        imgAlt="Card pic" 
-                        cardTitle='Card Title 3.0'
-                        description='Short Description about individual Card.'
-                        button1Text='Button 1'
-                        button1Link='https://www.merriam-webster.com/dictionary/apparel'
-                        button2Text='Button 2'
-                        button2Link='https://en.wikipedia.org/wiki/New_York_City' />
-
-                    <Cards 
-                        imgSrc='https://picsum.photos/300/200' 
-                        imgAlt="Card pic" 
-                        cardTitle='Card Title'
+                        cardTitle='Project 2.0'
                         companyName='Company/Brand Name'
                         companyLink='https://stocksnap.io/search/nature'
-                        daysLeft={29}
-                        fundStat={16}
-                        description='Short Description about individual Card.' />
+                        daysLeft={11}
+                        fundStat={3}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Art'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Austin, TX'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    /> 
 
                     <Cards 
                         imgSrc='https://picsum.photos/300/200' 
                         imgAlt="Card pic" 
-                        cardTitle='Kawya Kader'
+                        cardTitle='Project 3.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={23}
+                        fundStat={4}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Games'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Long Island, NY'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    /> 
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 4.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={25}
+                        fundStat={7}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Food'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Dortmund, Germany'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    /> 
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 5.0'
                         companyName='Company/Brand Name'
                         companyLink='https://stocksnap.io/search/nature'
                         daysLeft={6} 
                         fundStat={1} /* ei 2tay 0 dile kaaj hoy na kn? */
                         description='She has made us stan troller. she has made us writer. she has made us fry in the non-stick cookware...'
                         logoSrc='https://picsum.photos/50/30'
-                        button1Text='Raven'  
+                        button1Text='Music'  
                         button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
-                        button2Text='Gopalganj, Gopali'  
+                        button2Text='San Diego, CA'  
                         button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
-                        onBookmarkClick={handleBookmarkClick} />       
+                        onBookmarkClick={handleBookmarkClick} /> 
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 6.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={19}
+                        fundStat={49}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Design'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='New York, NY'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />  
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 7.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={2}
+                        fundStat={89}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Apparel'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='San Diego, CA'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    /> 
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 8.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={10}
+                        fundStat={34}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Photography'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Liverpool, UK'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />  
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 9.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={13}
+                        fundStat={30}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Games'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='San Diego, CA'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />      
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 10.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={32}
+                        fundStat={9}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Crafts'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Dortmund, Germany'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />      
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 11.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={8}
+                        fundStat={92}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Games'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Long Island, NY'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />      
+
+                    <Cards 
+                        imgSrc='https://picsum.photos/300/200' 
+                        imgAlt="Card pic" 
+                        cardTitle='Project 12.0'
+                        companyName='Company/Brand Name'
+                        companyLink='https://stocksnap.io/search/nature'
+                        daysLeft={87}
+                        fundStat={5}
+                        description='Short Description about individual Card.'
+                        logoSrc='https://picsum.photos/50/30'
+                        button1Text='Apparel'  
+                        button1Link='https://www.kickstarter.com/discover/categories/fashion/apparel' 
+                        button2Text='Austin, TX'  
+                        button2Link='https://www.kickstarter.com/discover/places/new-york-ny'
+                        onBookmarkClick={handleBookmarkClick}
+                    />               
                 </div>
             </div>
         </>

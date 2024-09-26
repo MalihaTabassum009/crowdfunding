@@ -51,7 +51,7 @@ const LoginRegister = () => {
                     {/* ID */}
                     <div className='input-box'>
                         <input type='password'   
-                        placeholder='enter your ID' required />  {/* type ki pass e thakbe? */}
+                        placeholder='enter password' required />  {/* type ki pass e thakbe? */}
                         <FaUserCheck className='icon'/>
                     </div>
                     
